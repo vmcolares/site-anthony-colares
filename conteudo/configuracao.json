@@ -1,0 +1,5 @@
+{
+  "cores": { "tinta": "#182b28", "muted": "#687672", "papel": "#f5f4ef", "destaque": "#d96d4c", "linha": "#d7ddd6" },
+  "instrucoes": "Edite somente os valores deste arquivo para personalizar as cores. Não remova as chaves."
+}
+
