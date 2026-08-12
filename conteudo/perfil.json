@@ -1,0 +1,21 @@
+{
+  "nome": "Anthony Moreira Marques Colares",
+  "tituloPagina": "Anthony Moreira Marques Colares — Pesquisador",
+  "descricao": "Currículo acadêmico e trajetória de Anthony Moreira Marques Colares, mestre em Letras e pesquisador em História da Literatura.",
+  "foto": "1.jpg",
+  "fotoAlt": "Anthony Moreira Marques Colares escrevendo em seu caderno",
+  "capa": { "etiqueta": "Pesquisador · Professor · Escritor", "titulo": "Ideias que<br /><em>atravessam</em><br />linguagens.", "introducao": "Mestre em Letras e pesquisador dedicado à literatura, à linguagem e às formas de resistência no discurso.", "nota": "Linguagem é encontro.<br />Pesquisa é escuta." },
+  "sobre": { "titulo": "Entre a sala de aula<br />e o <em>campo da pesquisa.</em>", "paragrafo1": "Anthony Moreira Marques Colares é mestre em Letras, com ênfase em História da Literatura, pela Universidade Federal do Rio Grande (FURG), e graduado em Letras — Português e Literaturas de Língua Portuguesa pela Universidade Federal do Pampa (UNIPAMPA).", "paragrafo2": "Sua trajetória reúne literatura clássica, literatura comparada, análise do discurso, educação e projetos de comunicação universitária. Foi bolsista CAPES no mestrado e integrou o programa PET-Letras da UNIPAMPA." },
+  "pesquisa": [
+    { "titulo": "Literaturas clássicas e o herói épico", "descricao": "Investigação sobre a permanência do herói épico e seus sentidos para o leitor contemporâneo, em diálogo com Homero e Virgílio." },
+    { "titulo": "Literatura comparada", "descricao": "Estudo das relações entre obras, tradições literárias e diferentes formas de representação do humano." },
+    { "titulo": "Discurso, educação e resistência", "descricao": "Análise dos discursos de resistência, da linguagem na educação e das práticas de letramento em ambientes multimidiáticos." }
+  ],
+  "formacao": [
+    { "periodo": "2024—2026", "titulo": "Mestrado em Letras — História da Literatura", "detalhes": "Fundação Universidade Federal do Rio Grande (FURG) · Bolsista CAPES" },
+    { "periodo": "2018—2023", "titulo": "Licenciatura em Letras — Português e Literaturas de Língua Portuguesa", "detalhes": "Universidade Federal do Pampa (UNIPAMPA) · Campus Bagé" },
+    { "periodo": "2014—2017", "titulo": "Técnico em informática integrado ao Ensino Médio", "detalhes": "Instituto Federal Sul-Rio-Grandense (IFSul) · Campus Bagé" }
+  ],
+  "contato": { "texto": "Para conhecer a produção completa e acompanhar o trabalho:", "links": [ { "nome": "Lattes", "url": "https://lattes.cnpq.br/6209023003155257" }, { "nome": "ORCID", "url": "https://orcid.org/0000-0003-2899-7255" }, { "nome": "Google Scholar", "url": "https://scholar.google.com.br/citations?hl=pt-BR&user=FQlh4M0AAAAJ" } ] }
+}
+
