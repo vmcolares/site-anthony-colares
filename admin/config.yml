@@ -1,0 +1,103 @@
+# Repositório GitHub deste site.
+backend:
+  name: github
+  repo: vmcolares/site-anthony-colares
+  branch: main
+
+media_folder: "imagens/uploads"
+public_folder: "imagens/uploads"
+publish_mode: simple
+
+collections:
+  - name: "perfil"
+    label: "Perfil e site"
+    files:
+      - name: "perfil"
+        label: "Perfil, pesquisa e formação"
+        file: "conteudo/perfil.json"
+        format: "json"
+        fields:
+          - { label: "Nome completo", name: "nome", widget: "string" }
+          - { label: "Título da página", name: "tituloPagina", widget: "string" }
+          - { label: "Descrição para buscadores", name: "descricao", widget: "text" }
+          - { label: "Foto de perfil", name: "foto", widget: "image", required: true }
+          - { label: "Texto alternativo da foto", name: "fotoAlt", widget: "string" }
+          - label: "Capa"
+            name: "capa"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta", name: "etiqueta", widget: "string" }
+              - { label: "Título (aceita HTML simples)", name: "titulo", widget: "string" }
+              - { label: "Introdução", name: "introducao", widget: "text" }
+              - { label: "Nota ao lado da foto (aceita HTML simples)", name: "nota", widget: "string" }
+          - label: "Sobre"
+            name: "sobre"
+            widget: "object"
+            fields:
+              - { label: "Título (aceita HTML simples)", name: "titulo", widget: "string" }
+              - { label: "Primeiro parágrafo", name: "paragrafo1", widget: "text" }
+              - { label: "Segundo parágrafo", name: "paragrafo2", widget: "text" }
+          - label: "Áreas de pesquisa"
+            name: "pesquisa"
+            widget: "list"
+            fields:
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Descrição", name: "descricao", widget: "text" }
+          - label: "Formação"
+            name: "formacao"
+            widget: "list"
+            fields:
+              - { label: "Período", name: "periodo", widget: "string" }
+              - { label: "Curso ou atividade", name: "titulo", widget: "string" }
+              - { label: "Instituição e detalhes", name: "detalhes", widget: "string" }
+          - label: "Contato"
+            name: "contato"
+            widget: "object"
+            fields:
+              - { label: "Texto", name: "texto", widget: "string" }
+              - label: "Links"
+                name: "links"
+                widget: "list"
+                fields:
+                  - { label: "Nome", name: "nome", widget: "string" }
+                  - { label: "URL", name: "url", widget: "string" }
+
+  - name: "aparencia"
+    label: "Aparência"
+    files:
+      - name: "configuracao"
+        label: "Cores do site"
+        file: "conteudo/configuracao.json"
+        format: "json"
+        fields:
+          - label: "Cores"
+            name: "cores"
+            widget: "object"
+            fields:
+              - { label: "Tinta / textos", name: "tinta", widget: "color" }
+              - { label: "Textos secundários", name: "muted", widget: "color" }
+              - { label: "Fundo claro", name: "papel", widget: "color" }
+              - { label: "Cor de destaque", name: "destaque", widget: "color" }
+              - { label: "Linhas e bordas", name: "linha", widget: "color" }
+          - { label: "Instruções internas", name: "instrucoes", widget: "text", required: false }
+
+  - name: "trabalhos"
+    label: "Trabalhos e publicações"
+    files:
+      - name: "trabalhos"
+        label: "Trabalhos selecionados"
+        file: "conteudo/trabalhos.json"
+        format: "json"
+        fields:
+          - { label: "Período exibido", name: "periodo", widget: "string" }
+          - label: "Publicações"
+            name: "publicacoes"
+            widget: "list"
+            fields:
+              - { label: "Tipo", name: "tipo", widget: "string" }
+              - { label: "Ano", name: "ano", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "string" }
+              - { label: "Instituição e detalhes", name: "detalhes", widget: "string" }
+              - { label: "Link", name: "link", widget: "string", required: false }
+              - { label: "Texto do link", name: "linkTexto", widget: "string", required: false }
+
