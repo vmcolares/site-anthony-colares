@@ -1,0 +1,8 @@
+# O PDF foi usado apenas como fonte para preencher o site e não deve ser
+# publicado junto com o currículo, pois contém dados pessoais do Lattes.
+lattes.pdf
+
+# Arquivos locais e temporários
+.DS_Store
+Thumbs.db
+
