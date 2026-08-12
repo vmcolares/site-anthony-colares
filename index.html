@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" data-site-description />
+    <title data-site-title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Voltar ao início">AC<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+      <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a><a href="#pesquisa">Pesquisa</a><a href="#publicacoes">Publicações</a><a href="#contato" class="nav-contact">Contato <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main>
+      <section id="inicio" class="hero section-grid"><div class="hero-copy"><p class="eyebrow" data-hero-eyebrow></p><h1 data-hero-title></h1><p class="hero-intro" data-hero-intro></p><a class="text-link" href="#sobre">Conheça o trabalho <span aria-hidden="true">↓</span></a></div><div class="hero-aside"><div class="portrait-placeholder"><img data-profile-image alt="" /></div><p class="hero-note" data-hero-note></p></div></section>
+      <section id="sobre" class="about section-grid section-border"><div class="section-label"><span>01</span> Sobre</div><div class="about-content"><h2 data-about-title></h2><div class="about-columns"><p data-about-left></p><p data-about-right></p></div><a class="text-link" href="#contato">Fale com Anthony <span aria-hidden="true">↗</span></a></div></section>
+      <section id="pesquisa" class="research section-grid section-border"><div class="section-label"><span>02</span> Pesquisa</div><div class="research-content"><h2>Áreas de<br /><em>interesse</em></h2><div class="interest-list" data-interests></div></div></section>
+      <section id="publicacoes" class="publications section-grid section-border"><div class="section-label"><span>03</span> Produção</div><div class="publications-content"><div class="section-heading-row"><h2>Trabalhos<br /><em>selecionados</em></h2><span class="year-label" data-publications-period></span></div><div class="publication-list" data-publications></div></div></section>
+      <section class="education section-grid section-border"><div class="section-label"><span>04</span> Formação</div><div class="timeline" data-education></div></section>
+      <section id="contato" class="contact section-grid"><div class="contact-copy"><p class="eyebrow">Vamos conversar?</p><h2>Uma boa ideia<br /><em>começa no diálogo.</em></h2></div><div class="contact-details"><p data-contact-copy></p><div class="social-links" data-links></div></div></section>
+    </main>
+    <footer class="site-footer"><span data-footer-copy></span><span>Feito para compartilhar ideias.</span><a href="#inicio">Voltar ao topo ↑</a></footer>
+  </body>
+</html>
+
