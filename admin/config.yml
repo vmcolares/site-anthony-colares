@@ -3,6 +3,10 @@ backend:
   name: github
   repo: vmcolares/site-anthony-colares
   branch: main
+  # Preencha após publicar oauth-worker. Não use api.netlify.com aqui.
+  # base_url: https://SEU-WORKER.workers.dev
+  # auth_endpoint: auth
+  # site_domain: vmcolares.github.io
 
 media_folder: "imagens/uploads"
 public_folder: "imagens/uploads"
