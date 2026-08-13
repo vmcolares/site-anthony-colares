@@ -1,0 +1,13 @@
+{
+  "name": "anthony-colares-decap-auth",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-12",
+  "workers_dev": true,
+  "vars": {
+    "CMS_ORIGIN": "https://vmcolares.github.io"
+  },
+  "secrets": {
+    "required": ["GITHUB_CLIENT_ID", "GITHUB_CLIENT_SECRET"]
+  }
+}
+
